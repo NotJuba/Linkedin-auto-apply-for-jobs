@@ -1,7 +1,9 @@
-LinkedIn Job Search Automation
+<h1>LinkedIn Job Search Automation</h1>
 
 This project demonstrates an automation script written in Java for performing job searches on LinkedIn using Selenium WebDriver. The script interacts with the LinkedIn job search page, enters a job title, selects the "Easy Apply" option, and applies for multiple job listings.
-Prerequisites
+
+
+<h2>Prerequisites</h2>
 
 Before running the script, make sure you have the following installed:
 
@@ -9,13 +11,13 @@ Before running the script, make sure you have the following installed:
     Selenium WebDriver for Java
     ChromeDriver
 
-Setup
+<h3>Setup</h3>
 
     Download and install the Java Development Kit (JDK) on your machine.
     Set up your project and import the Selenium WebDriver for Java library.
     Download the ChromeDriver executable and specify its path in the code.
 
-Usage
+<h3>Usage</h3>
 
     Open the LinkedInJobSearch Java class.
     Update the ChromeDriver path in the line System.setProperty("webdriver.chrome.driver", "path/to/chromedriver"); with the actual path to your ChromeDriver executable.
